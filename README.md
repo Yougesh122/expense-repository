@@ -10,12 +10,20 @@ Instruction to run the project
 8) Please check in Postman APIs Routes.
 
 9) i) (http://127.0.0.1:8000)/api/v1/expenses  Fetch all expenses. Request Method(GET)
-  ii) (http://127.0.0.1:8000)/api/v1/expenses/{id} [id is mandatory] Fetch Particular expense Request Method(GET)
-  iii) (http://127.0.0.1:8000)/api/v1/expenses (Store Expense) Request Method(POST)
-    add request Form data for storing ( title,amount,expense_date example (21/10/2025),category(1,2,3) defined in config 1=>Food,2=>Transport,3=> Accomodation)
-iii) (http://127.0.0.1:8000)/api/v1/expenses/{id}  [id is mandatory] (Update Expense) Request Method(POST)
-    add request Form data for storing ( title,amount,expense_date example (21/10/2025),category(1,2,3) defined in config 1=>Food,2=>Transport,3=> Accomodation,
+10) ii) (http://127.0.0.1:8000)/api/v1/expenses/{id} [id is mandatory] Fetch Particular expense Request Method(GET)
+11)   iii) (http://127.0.0.1:8000)/api/v1/expenses (Store Expense) Request Method(POST)
+12)   add request Form data for storing ( title,amount,expense_date example (21/10/2025),category(1,2,3) defined in config 1=>Food,2=>Transport,3=> Accomodation)
+13)   iii) (http://127.0.0.1:8000)/api/v1/expenses/{id}  [id is mandatory] (Update Expense) Request Method(POST)
+14)   add request Form data for storing ( title,amount,expense_date example (21/10/2025),category(1,2,3) defined in config 1=>Food,2=>Transport,3=> Accomodation,
+15)   iv) (http://127.0.0.1:8000)/api/v1/expenses/{id} (Delete Expense) Request Method(POST) [id is mandatory]
+16)v) (http://127.0.0.1:8000)/api/v1/expenses  Fetch all expenses by Category. add category in Form Data for filtering the expense by category.
+    
 
-   iv) (http://127.0.0.1:8000)/api/v1/expenses/{id} (Delete Expense) Request Method(POST) [id is mandatory]
+  
+
+
+    
+
    
-   v) (http://127.0.0.1:8000)/api/v1/expenses  Fetch all expenses by Category. add category in Form Data for filtering the expense by category.
+   
+  
