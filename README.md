@@ -1,7 +1,7 @@
 Instruction to run the project
  Before running the project, execute the following command to install/update all dependencies:
 1) Before run the project Please run the command "composer update".
-2) Create a database named: laravel_project_app
+2) Create a database named: expense_app
 3) run the command "php artisan module:migrate Expense" . "this will create expenses table in laravel_project_app"
 4) The project utilizes the nwidart/laravel-modules package to implement a modular architecture.
 5) All log files are maintained in the storage/data-logs directory for easier tracking and debugging.
